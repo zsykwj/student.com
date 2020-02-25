@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="496673" started-at="2020-02-24T10:50:04Z" finished-at="2020-02-24T10:58:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="496673" started-at="2020-02-24T10:50:04Z" finished-at="2020-02-24T10:58:21Z">
+      <class name="student.com.search1.Chinese">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:student.com.search1.Chinese@25e70]" name="beforeMethod" is-config="true" duration-ms="32155" started-at="2020-02-24T18:50:04Z" finished-at="2020-02-24T18:50:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.String)[pri:0, instance:student.com.search1.Chinese@25e70]" name="f" duration-ms="329809" started-at="2020-02-24T18:50:36Z" data-provider="dp" finished-at="2020-02-24T18:56:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Â×¶Ø]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:student.com.search1.Chinese@25e70]" name="afterMethod" is-config="true" duration-ms="4241" started-at="2020-02-24T18:56:06Z" finished-at="2020-02-24T18:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:student.com.search1.Chinese@25e70]" name="beforeMethod" is-config="true" duration-ms="24537" started-at="2020-02-24T18:56:10Z" finished-at="2020-02-24T18:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.String)[pri:0, instance:student.com.search1.Chinese@25e70]" name="f" duration-ms="101793" started-at="2020-02-24T18:56:35Z" data-provider="dp" finished-at="2020-02-24T18:58:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ä«¶û±¾]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:student.com.search1.Chinese@25e70]" name="afterMethod" is-config="true" duration-ms="4044" started-at="2020-02-24T18:58:16Z" finished-at="2020-02-24T18:58:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- student.com.search1.Chinese -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
