@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="student.com.search1.Chinese">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="f" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- student.com.search1.Chinese -->
+      <class name="student.com.search1.English">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="f" invocation-numbers="0 1"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- student.com.search1.English -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
